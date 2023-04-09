@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: -1;
+  margin: 150 auto;
+  padding: 0 1%;
+  width: -150px;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.img {
+  position: relative;
+  border: 1px;
+  height: 320px;
+  width: 320px;
+  top: -50px;
+  left: 50px;
+}
+
+.logo {
+  width: 80%;
+}
+
+.menu a {
+  color: rgb(27, 18, 18);
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+section.sobre {
+  position: relative;
+  height: calc(100% - 200px);
+}
+
+.div1 {
+  position: absolute;
+  bottom: 0px;
+  left: 1200px;
+  width: 800px;
+  height: 700px;
+  background-color: #205739;
+  border-radius: 50%;
+}
+
+.texto-sobre {
+  margin-top: -1080px;
+  margin-left: 340;
+  font-size: 40px;
+  color: #494237;
+}
+
+.div2 {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background-color: #205739;
+  border-radius: 50%;
+  top: -35%;
+  left: -30%;
+}
+
+.div3 {
+  position: absolute;
+  width: 400px;
+  height: 540px;
+  background-color: #c9facd;
+  top: -550;
+  left: 920;
+  border-radius: 5px;
+}
+
+.borda {
+  border: solid 1px grey;
+  border-radius: 3px;
+  width: -50px;
+  height: 50;
+  top: -520px;
+  left: 0px;
+  margin-left: 940;
+  margin-right: 235;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+.insta {
+  position: absolute;
+  top: -80px;
+  left: 947;
+  color: #494237;
+}
+
+.icone-insta {
+  color: #494237;
+  width: 60px;
+  height: 60px;
+  left: 37px;
+}
+
+a, .aves, .link-insta {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+
+.texto-insta {
+  position: relative;
+  width: 80px;
+  right: 0px;
+  margin-top: 0px;
+  display: flex;
+}
+
+.nome-do-insta {
+  font-size: 17px;
+  cursor: pointer;
+  margin-top: 15px;
+  padding-left: 83px;
+  display: flex;
+  color: #494237;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+
+.img, .div1, .div2, .borda, 
+  .img, .logo, .icone-insta, a, .aves {
+    width: 68%;
+  }
+}
